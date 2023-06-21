@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'https://my-currency-calculator-api.vercel.app/'
+const BASE_URL = 'https://my-currency-calculator-api.vercel.app'
 
 //Δημιουργία ενός αντικειμένου axios το οποίο θα χρησιμοποιηθεί
 //με σκοπό την αποστολή http requests στον server
