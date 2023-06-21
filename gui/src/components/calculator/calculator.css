@@ -1,0 +1,47 @@
+.calculator {
+  max-width: 45%;
+  margin: 70px auto;
+  padding: 70px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #006400;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.calculator .title {
+  color: black;
+  margin-bottom: 25px;
+  position: relative;
+  bottom: 35px;
+}
+
+.field {
+  background-color: #B8860B;
+}
+
+.calculator .MuiGrid-item {
+  display: flex;
+  align-items: center;
+}
+
+.calculator .MuiTextField-root {
+  width: 100%;
+}
+
+.calculator .convert-button {
+  margin-top: 10px;
+  width: 100%;
+  color: black
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  font-weight: bold;
+  color: black;
+}

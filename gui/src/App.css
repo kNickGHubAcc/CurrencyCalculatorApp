@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: #A9A9A9;
+  color: white;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .app {
+    height: 100%;
+    width: 100%
+  }
+ }

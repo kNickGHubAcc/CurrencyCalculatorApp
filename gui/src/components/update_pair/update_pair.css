@@ -1,0 +1,134 @@
+.updatePairContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+
+.update-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #006400;
+    width: 39.5rem;
+    height: 5rem;
+    padding: 4.5rem;
+    border-radius: 3rem;
+}
+
+.update-inner-container label {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.input-container {
+    background-color: #8B0000;
+    margin: 0.75rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.update-input {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: white;
+}
+
+.update-button {
+    background-color: #FFD700;
+    font-weight: 600;
+    cursor: pointer;
+    border-width: 1px;
+    margin-top: 1.5rem;
+    margin-left: 0.75rem;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    border-color: #FFD700;
+}
+
+.update-button:hover {
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.get-pairs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8B0000;
+    border-radius: 4rem;
+    padding: 2.5rem;
+    margin-top: 1rem;
+    width: 70%;
+    height: 10%;
+}
+
+.get-pairs h3 {
+    padding: 1.25rem;
+    font-size: 1rem;
+}
+
+.get-pairs button {
+    padding: 0.75rem;
+    border-radius: 2rem;
+    background-color: #2172E5;
+    font-weight: 600;
+    cursor: pointer;
+    border-color: #2172E5;
+}
+
+.get-pairs button:hover {
+    background-color: #4785db;
+}
+
+.scroll-bg {
+    border: 2px solid black;
+    height: 23rem;
+    background-color: #006400;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 47%;
+    margin-top: 1rem;
+    border-radius: 4rem;
+}
+
+.scroll-bg::-webkit-scrollbar {
+    display: none;
+}
+
+.disabled {
+    color: rgb(155, 152, 152);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .updatePairContainer {
+        margin-top: 0rem;
+    }
+
+    .update-container {
+        flex-direction: column;
+        width: 80%;
+        padding: 2rem;
+    }
+
+    .update-inner-container {
+        width: 80%;
+    }
+
+    .update-button {
+        width: 80%;
+    }
+
+    .scroll-bg {
+        width: 80%;
+    }
+}
